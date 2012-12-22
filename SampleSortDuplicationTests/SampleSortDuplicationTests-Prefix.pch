@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SampleSortDuplicationTests' target in the 'SampleSortDuplicationTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

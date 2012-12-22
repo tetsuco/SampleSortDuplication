@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		108656B31434002B004F163A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108656B21434002B004F163A /* UIKit.framework */; };
+		108656B51434002B004F163A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108656B41434002B004F163A /* Foundation.framework */; };
+		108656B71434002B004F163A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108656B61434002B004F163A /* CoreGraphics.framework */; };
+		108656BD1434002B004F163A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 108656BB1434002B004F163A /* InfoPlist.strings */; };
+		108656C01434002B004F163A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 108656BF1434002B004F163A /* main.m */; };
+		108656C31434002B004F163A /* SampleSortDuplicationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 108656C21434002B004F163A /* SampleSortDuplicationAppDelegate.m */; };
+		108656C61434002B004F163A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 108656C41434002B004F163A /* MainWindow.xib */; };
+		108656CD1434002B004F163A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108656B21434002B004F163A /* UIKit.framework */; };
+		108656CE1434002B004F163A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108656B41434002B004F163A /* Foundation.framework */; };
+		108656CF1434002B004F163A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108656B61434002B004F163A /* CoreGraphics.framework */; };
+		108656D71434002B004F163A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 108656D51434002B004F163A /* InfoPlist.strings */; };
+		108656DA1434002B004F163A /* SampleSortDuplicationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 108656D91434002B004F163A /* SampleSortDuplicationTests.h */; };
+		108656DC1434002B004F163A /* SampleSortDuplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 108656DB1434002B004F163A /* SampleSortDuplicationTests.m */; };
+		C9FA4AD714340102008DF250 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA4AD514340102008DF250 /* FirstViewController.m */; };
+		C9FA4AD814340102008DF250 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FA4AD614340102008DF250 /* FirstViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		108656D01434002B004F163A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 108656A51434002A004F163A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108656AD1434002B004F163A;
+			remoteInfo = SampleSortDuplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		108656AE1434002B004F163A /* SampleSortDuplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSortDuplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		108656B21434002B004F163A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		108656B41434002B004F163A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		108656B61434002B004F163A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		108656BA1434002B004F163A /* SampleSortDuplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleSortDuplication-Info.plist"; sourceTree = "<group>"; };
+		108656BC1434002B004F163A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		108656BE1434002B004F163A /* SampleSortDuplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleSortDuplication-Prefix.pch"; sourceTree = "<group>"; };
+		108656BF1434002B004F163A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		108656C11434002B004F163A /* SampleSortDuplicationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleSortDuplicationAppDelegate.h; sourceTree = "<group>"; };
+		108656C21434002B004F163A /* SampleSortDuplicationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleSortDuplicationAppDelegate.m; sourceTree = "<group>"; };
+		108656C51434002B004F163A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		108656CC1434002B004F163A /* SampleSortDuplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleSortDuplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		108656D41434002B004F163A /* SampleSortDuplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleSortDuplicationTests-Info.plist"; sourceTree = "<group>"; };
+		108656D61434002B004F163A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		108656D81434002B004F163A /* SampleSortDuplicationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleSortDuplicationTests-Prefix.pch"; sourceTree = "<group>"; };
+		108656D91434002B004F163A /* SampleSortDuplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleSortDuplicationTests.h; sourceTree = "<group>"; };
+		108656DB1434002B004F163A /* SampleSortDuplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleSortDuplicationTests.m; sourceTree = "<group>"; };
+		C9FA4AD414340102008DF250 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C9FA4AD514340102008DF250 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C9FA4AD614340102008DF250 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		108656AB1434002B004F163A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108656B31434002B004F163A /* UIKit.framework in Frameworks */,
+				108656B51434002B004F163A /* Foundation.framework in Frameworks */,
+				108656B71434002B004F163A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108656C81434002B004F163A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108656CD1434002B004F163A /* UIKit.framework in Frameworks */,
+				108656CE1434002B004F163A /* Foundation.framework in Frameworks */,
+				108656CF1434002B004F163A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		108656A31434002A004F163A = {
+			isa = PBXGroup;
+			children = (
+				108656B81434002B004F163A /* SampleSortDuplication */,
+				108656D21434002B004F163A /* SampleSortDuplicationTests */,
+				108656B11434002B004F163A /* Frameworks */,
+				108656AF1434002B004F163A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		108656AF1434002B004F163A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				108656AE1434002B004F163A /* SampleSortDuplication.app */,
+				108656CC1434002B004F163A /* SampleSortDuplicationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		108656B11434002B004F163A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				108656B21434002B004F163A /* UIKit.framework */,
+				108656B41434002B004F163A /* Foundation.framework */,
+				108656B61434002B004F163A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		108656B81434002B004F163A /* SampleSortDuplication */ = {
+			isa = PBXGroup;
+			children = (
+				108656C11434002B004F163A /* SampleSortDuplicationAppDelegate.h */,
+				108656C21434002B004F163A /* SampleSortDuplicationAppDelegate.m */,
+				108656C41434002B004F163A /* MainWindow.xib */,
+				C9FA4AD414340102008DF250 /* FirstViewController.h */,
+				C9FA4AD514340102008DF250 /* FirstViewController.m */,
+				C9FA4AD614340102008DF250 /* FirstViewController.xib */,
+				108656B91434002B004F163A /* Supporting Files */,
+			);
+			path = SampleSortDuplication;
+			sourceTree = "<group>";
+		};
+		108656B91434002B004F163A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				108656BA1434002B004F163A /* SampleSortDuplication-Info.plist */,
+				108656BB1434002B004F163A /* InfoPlist.strings */,
+				108656BE1434002B004F163A /* SampleSortDuplication-Prefix.pch */,
+				108656BF1434002B004F163A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		108656D21434002B004F163A /* SampleSortDuplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				108656D91434002B004F163A /* SampleSortDuplicationTests.h */,
+				108656DB1434002B004F163A /* SampleSortDuplicationTests.m */,
+				108656D31434002B004F163A /* Supporting Files */,
+			);
+			path = SampleSortDuplicationTests;
+			sourceTree = "<group>";
+		};
+		108656D31434002B004F163A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				108656D41434002B004F163A /* SampleSortDuplicationTests-Info.plist */,
+				108656D51434002B004F163A /* InfoPlist.strings */,
+				108656D81434002B004F163A /* SampleSortDuplicationTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		108656AD1434002B004F163A /* SampleSortDuplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108656DF1434002B004F163A /* Build configuration list for PBXNativeTarget "SampleSortDuplication" */;
+			buildPhases = (
+				108656AA1434002B004F163A /* Sources */,
+				108656AB1434002B004F163A /* Frameworks */,
+				108656AC1434002B004F163A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleSortDuplication;
+			productName = SampleSortDuplication;
+			productReference = 108656AE1434002B004F163A /* SampleSortDuplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		108656CB1434002B004F163A /* SampleSortDuplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108656E21434002B004F163A /* Build configuration list for PBXNativeTarget "SampleSortDuplicationTests" */;
+			buildPhases = (
+				108656C71434002B004F163A /* Sources */,
+				108656C81434002B004F163A /* Frameworks */,
+				108656C91434002B004F163A /* Resources */,
+				108656CA1434002B004F163A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				108656D11434002B004F163A /* PBXTargetDependency */,
+			);
+			name = SampleSortDuplicationTests;
+			productName = SampleSortDuplicationTests;
+			productReference = 108656CC1434002B004F163A /* SampleSortDuplicationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		108656A51434002A004F163A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 108656A81434002A004F163A /* Build configuration list for PBXProject "SampleSortDuplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 108656A31434002A004F163A;
+			productRefGroup = 108656AF1434002B004F163A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				108656AD1434002B004F163A /* SampleSortDuplication */,
+				108656CB1434002B004F163A /* SampleSortDuplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		108656AC1434002B004F163A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108656BD1434002B004F163A /* InfoPlist.strings in Resources */,
+				108656C61434002B004F163A /* MainWindow.xib in Resources */,
+				C9FA4AD814340102008DF250 /* FirstViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108656C91434002B004F163A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108656D71434002B004F163A /* InfoPlist.strings in Resources */,
+				108656DA1434002B004F163A /* SampleSortDuplicationTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		108656CA1434002B004F163A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		108656AA1434002B004F163A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108656C01434002B004F163A /* main.m in Sources */,
+				108656C31434002B004F163A /* SampleSortDuplicationAppDelegate.m in Sources */,
+				C9FA4AD714340102008DF250 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108656C71434002B004F163A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108656DC1434002B004F163A /* SampleSortDuplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		108656D11434002B004F163A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 108656AD1434002B004F163A /* SampleSortDuplication */;
+			targetProxy = 108656D01434002B004F163A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		108656BB1434002B004F163A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				108656BC1434002B004F163A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		108656C41434002B004F163A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				108656C51434002B004F163A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		108656D51434002B004F163A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				108656D61434002B004F163A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		108656DD1434002B004F163A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		108656DE1434002B004F163A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		108656E01434002B004F163A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleSortDuplication/SampleSortDuplication-Prefix.pch";
+				INFOPLIST_FILE = "SampleSortDuplication/SampleSortDuplication-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		108656E11434002B004F163A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleSortDuplication/SampleSortDuplication-Prefix.pch";
+				INFOPLIST_FILE = "SampleSortDuplication/SampleSortDuplication-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		108656E31434002B004F163A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleSortDuplication.app/SampleSortDuplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleSortDuplicationTests/SampleSortDuplicationTests-Prefix.pch";
+				INFOPLIST_FILE = "SampleSortDuplicationTests/SampleSortDuplicationTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		108656E41434002B004F163A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleSortDuplication.app/SampleSortDuplication";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleSortDuplicationTests/SampleSortDuplicationTests-Prefix.pch";
+				INFOPLIST_FILE = "SampleSortDuplicationTests/SampleSortDuplicationTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		108656A81434002A004F163A /* Build configuration list for PBXProject "SampleSortDuplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108656DD1434002B004F163A /* Debug */,
+				108656DE1434002B004F163A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108656DF1434002B004F163A /* Build configuration list for PBXNativeTarget "SampleSortDuplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108656E01434002B004F163A /* Debug */,
+				108656E11434002B004F163A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108656E21434002B004F163A /* Build configuration list for PBXNativeTarget "SampleSortDuplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108656E31434002B004F163A /* Debug */,
+				108656E41434002B004F163A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 108656A51434002A004F163A /* Project object */;
+}
